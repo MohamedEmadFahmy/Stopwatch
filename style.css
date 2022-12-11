@@ -1,3 +1,50 @@
 html{
-    background-color: black;
+    background-color: rgb(31, 38, 53);
+}
+body{
+    width: 100%;
+    height: 700px;
+    margin : 0px;
+    padding: 0px;
+}
+*{
+    font-family: "Fira sans";
+}
+#container{
+    /* height: 500px; */
+    /* margin-top: 200px; */
+    /* width: 900px; */
+    background-color: rgb(17, 21, 29);
+    width: 50%;
+    height: 55%;
+    margin-top: 12%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 1.5cm;
+    border-style: hidden;
+}
+#container #counter{
+    width: fit-content;
+    /* font-size: 230px; */
+    font-size: 1200%;
+    margin: auto;
+    color: rgb(255, 255, 255,0.9);
+    letter-spacing: 10px;
+}
+div#container button{
+    width: 20%;
+    height: 20%;
+    margin: auto;
+    position: relative;
+    top: 2%;
+    left: 15%;
+    margin-right: 50px;
+    border-radius: 10px;
+    font-size: 26px;
+    background-color: rgba(230, 73, 73, 1);
+    border: hidden;
+    color: rgb(255, 255, 255,1);
+}
+div#container button:hover{
+    background-color: rgba(230, 73, 73, 0.7);
 }
